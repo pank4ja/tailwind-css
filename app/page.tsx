@@ -1,15 +1,10 @@
 import Card from "@/components/card";
+import Header from "@/components/Header";
 
 export default function Home() {
   return (
     <div className="h-screen w-full max-w-4xl mx-auto pt-20 py-20">
-      <h1 className="text-4xl font-bold tracking-tighter">Bento Grid are cool, you should try it someone.</h1>
-      <p className="text-base text-neutral-500 max-w-xl mt-4">
-        Discover innovative solutions that transform the way you work and
-        create. Our cutting-edge tools are designed to empower your creativity
-        and boost your productivity like never before.
-      </p>
-
+      <Header />
       <Card />
     </div>
   );
