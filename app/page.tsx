@@ -1,11 +1,10 @@
-import Card from "@/components/card";
-import Header from "@/components/Header";
+import ModeToggle from "@/components/modetoggle";
+
 
 export default function Home() {
   return (
-    <div className="h-screen w-full max-w-4xl mx-auto pt-20 py-20">
-      <Header />
-      <Card />
+    <div>
+      <ModeToggle />
     </div>
   );
 }
